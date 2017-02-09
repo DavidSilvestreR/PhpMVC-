@@ -14,7 +14,7 @@
     <section class="form-container container center">
       <h1>Bienvenido</h1>
       <div class="row col m6 offset-m3 green accent-2">
-        <form action="Index/login/1234" method="POST" class="col s12">
+        <form action="Index/login/1234" method="POST" name="Session" class="col s12">
           <div class="row">
             <div class="input-field col s12">
               <input id="email" name="mail" type="email" class="validate">
@@ -23,7 +23,7 @@
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
+              <input id="password" name="password" type="password" class="validate">
               <label for="password">Password</label>
             </div>
           </div>
